@@ -42,6 +42,8 @@ class SimpleViewModel : ViewModel() {
             it > 4 -> Popularity.POPULAR
             else -> Popularity.NORMAL
         }
+
+
     }
 
     fun onLike() {
